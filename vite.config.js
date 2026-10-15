@@ -3,14 +3,11 @@
 
 
 
-
-
-
 import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-  base: "/App-cars/",
+  base: "/redcarros/",
   build: {
     rollupOptions: {
       input: {
